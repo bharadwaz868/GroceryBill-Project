@@ -112,8 +112,8 @@ while(True):
 total = 0
 for x in range(0, len(item_prices)):
         total = total + item_prices[x]
-print(total)
-print(item_prices)
+print("Prices Of Purchased Products",item_prices)
+print("Total Bill Amount",total)
 
 
 
